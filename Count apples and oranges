@@ -1,0 +1,13 @@
+def countApplesAndOranges(s, t, a, b, apples, oranges):
+    # Write your code here
+    count_a, count_b = 0,0
+    apples = [x+a for x in apples]
+    oranges = [x+b for x in oranges]
+    for i in apples:
+        if i >= s and i <=t:
+            count_a += 1
+    for j in oranges:
+        if j >= s and j <=t:
+            count_b += 1
+    print(count_a)
+    print(count_b) 
