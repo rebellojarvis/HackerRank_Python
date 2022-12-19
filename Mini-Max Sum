@@ -1,4 +1,0 @@
-arr = [1,2,3,4,5]
-arr.sort()
-print(sum(arr[:-1:])) # prints minimum sum of array
-print(sum(arr[1::])) # prints maximum sum of array
