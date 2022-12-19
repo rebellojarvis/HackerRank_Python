@@ -1,0 +1,11 @@
+gr = []
+for i in grades:
+  if i >= 38:
+    div = i // 5
+    if (((div+1)*5) - i) < 3:
+      gr.append((div+1)*5)
+    else:
+      gr.append(i)
+  else:
+    gr.append(i)   
+return(gr)
